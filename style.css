@@ -1,0 +1,311 @@
+.circle-1::before{
+    position: absolute;
+    top:  0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top left,#eb2f06,yellow);
+    clip-path: circle(20% at 10% 10%);
+}
+.circle-1::after{
+    position: absolute;
+    top:  0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#55E6C1,pink);
+    clip-path: circle(25% at 90% 90%);
+}
+
+.circle-2::before{
+    position: absolute;
+    top:  0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top left,#eb2f06,yellow);
+    clip-path: circle(2% at 10% 90%);
+}
+.circle-2::after{
+    position: absolute;
+    top:  0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#55E6C1,pink);
+    clip-path: circle(2.3% at 60% 20%);
+}.circle-3::before{
+    position: absolute;
+    top:  0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top left,#eb2f06,yellow);
+    clip-path: circle(6% at 80% 60%);
+}
+.circle-3::after{
+    position: absolute;
+    top:  0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#55E6C1,pink);
+    clip-path: circle(5% at 1% 2%);
+}
+body{
+    background-color: #000;
+}
+.main-box-01{
+    width: 90%;
+    height: 550px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1.2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(7px);
+    margin-left: 5%;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+
+    
+}
+
+.nav-tabs button{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.2s ease-in-out;
+
+}
+.nav-tabs button:hover{
+    background-image: linear-gradient(to left top,#fff200,#ff3838);
+    box-shadow: 0px 0px 10px #ff3838,
+                0px 0px 20px #fff200,
+                0px 0px 40px #ff3838,
+                0px 0px 80px #fff200;
+    scale: 1.06;
+    border-radius: 7px;
+    color: white;
+}
+
+.home-row-01{
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: 10px;
+}
+.home-head{
+    color: grey;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 600;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-top: 10%;
+
+}
+.home-head::first-letter{
+    color: white;
+}
+
+.home-text-01 h5{
+    color: grey;
+}
+
+.home-text-01 p{
+    margin-bottom: 30px;
+}
+
+
+.home-btn-00 a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 14px 40px;
+    border-radius: 30px;
+    box-shadow: 1px 4px 10px rgba(255, 255, 255, 0.7);
+    transition: all 0.2s ease-in-out;
+}
+
+.home-btn-01{
+    margin-bottom: 40px;
+}
+
+.home-btn-02 a{
+    padding: 14px 53px;
+}
+
+.home-btn-00 a:hover{
+    background-image: linear-gradient(to left top,#fff200,#ff3838);
+    box-shadow: 0px 0px 10px #ff3838,
+                0px 0px 20px #fff200,
+                0px 0px 40px #ff3838,
+                0px 0px 80px #fff200;
+    scale: 1.06;
+}
+
+.right-column img{
+width: 95%;
+
+}
+
+
+@media screen and (max-width: 730px){
+    .main-box-01{
+        height: 1000px;
+    }
+
+    .home-btn-01 {
+        margin-bottom: 40px;
+        margin-left: 24%;
+    }
+    .home-btn-02 {
+        margin-bottom: 40px;
+        margin-left: 24%;
+    }
+    .circle-1::after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(#55E6C1,pink);
+        clip-path: circle(25% at 90% 44%);
+    }
+}
+
+
+@media screen and (max-width: 555px){
+    .home-btn-01 {
+        margin-bottom: 40px;
+        margin-left: 20%;
+    }
+    .home-btn-02 {
+        margin-bottom: 40px;
+        margin-left: 20%;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .home-btn-01 {
+        margin-bottom: 40px;
+        margin-left: 18%;
+    }
+    .home-btn-02 {
+        margin-bottom: 40px;
+        margin-left: 18%;
+    }
+
+}
+
+@media screen and (max-width: 475px){
+    .home-btn-01 {
+        margin-bottom: 40px;
+        margin-left: 16%;
+    }
+    .home-btn-02 {
+        margin-bottom: 40px;
+        margin-left: 16%;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .home-btn-01 {
+        margin-bottom: 40px;
+        margin-left: 14%;
+    }
+    .home-btn-02 {
+        margin-bottom: 40px;
+        margin-left: 14%;
+    }
+
+}
+@media screen and (max-width: 434px){
+    .home-btn-01 {
+        margin-bottom: 40px;
+        margin-left: 12%;
+    }
+    .home-btn-02 {
+        margin-bottom: 40px;
+        margin-left: 12%;
+    }
+
+}
+
+@media screen and (max-width: 396px){
+    .home-btn-01 {
+        margin-bottom: 40px;
+        margin-left: 9%;
+    }
+    .home-btn-02 {
+        margin-bottom: 40px;
+        margin-left: 9%;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .home-btn-01 {
+        margin-bottom: 40px;
+        margin-left: 5%;
+    }
+    .home-btn-02 {
+        margin-bottom: 40px;
+        margin-left: 5%;
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .home-btn-01 {
+        margin-bottom: 40px;
+        margin-left: 2%;
+    }
+    .home-btn-02 {
+        margin-bottom: 40px;
+        margin-left: 2%;
+    }
+
+}
+
+@media screen and (max-width: 336px){
+   .home-btn-00 a{
+    font-size: 19px;
+
+   }
+   .home-btn-01 {
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+.home-btn-02 {
+    margin-bottom: 40px;
+    margin-left: 4%;
+}
+}
+
+@media screen and (max-width: 294px){
+    .home-btn-00 a{
+     font-size: 10px;
+ 
+    }
+    .home-btn-01 {
+     margin-bottom: 40px;
+     margin-left: 5%;
+ }
+ .home-btn-02 {
+     margin-bottom: 40px;
+     margin-left: 6%;
+ }
+ }
+ 
